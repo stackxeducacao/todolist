@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo - List</title>
+    <script type="text/javascript" src="todo.js"></script>
+    <style>
+        .input-block 
+        {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Lista de Tarefas</h1>
+
+    <div id="todoList"></div>
+
+    <div class="input-block">
+        <input type="text" id="todo" placeholder="Digite sua atividade aqui" maxlength="255" />
+        <button onclick="addItemClickHandler()">Adicionar item</button>
+    </div>
+
+</body>
+</html>
